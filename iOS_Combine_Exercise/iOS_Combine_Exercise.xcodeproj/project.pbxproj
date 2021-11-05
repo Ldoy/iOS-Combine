@@ -11,6 +11,8 @@
 		A835030D2734C06A00DF617B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835030C2734C06A00DF617B /* ContentView.swift */; };
 		A835030F2734C06B00DF617B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A835030E2734C06B00DF617B /* Assets.xcassets */; };
 		A83503122734C06B00DF617B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83503112734C06B00DF617B /* Preview Assets.xcassets */; };
+		A835031C2734C0EB00DF617B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835031B2734C0EB00DF617B /* ListViewModel.swift */; };
+		A835032227350E0D00DF617B /* Listview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A835032127350E0D00DF617B /* Listview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A835030E2734C06B00DF617B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83503112734C06B00DF617B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A83503132734C06B00DF617B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A835031B2734C0EB00DF617B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		A835032127350E0D00DF617B /* Listview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				A835030A2734C06A00DF617B /* iOS_Combine_ExerciseApp.swift */,
 				A835030C2734C06A00DF617B /* ContentView.swift */,
+				A835032127350E0D00DF617B /* Listview.swift */,
+				A835031B2734C0EB00DF617B /* ListViewModel.swift */,
 				A835030E2734C06B00DF617B /* Assets.xcassets */,
 				A83503132734C06B00DF617B /* Info.plist */,
 				A83503102734C06B00DF617B /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A835032227350E0D00DF617B /* Listview.swift in Sources */,
+				A835031C2734C0EB00DF617B /* ListViewModel.swift in Sources */,
 				A835030D2734C06A00DF617B /* ContentView.swift in Sources */,
 				A835030B2734C06A00DF617B /* iOS_Combine_ExerciseApp.swift in Sources */,
 			);

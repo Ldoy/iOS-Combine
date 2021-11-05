@@ -11,7 +11,7 @@ import SwiftUI
 struct iOS_Combine_ExerciseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EventListView(listViewModel: ListViewModel(isTestView: true))
         }
     }
 }
